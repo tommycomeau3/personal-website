@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&display=swap');
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color:#24252A;
+}
+
+body{
+  background-color: #363434;
+}
+
+li, a, button{
+  font-family:"Anaheim", sans-serif;
+  font-weight: 500; 
+  font-size: 16px; 
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+h1{
+  font-family:"Anaheim", sans-serif;
+  font-weight: 500; 
+  font-size: 30px; 
+  color: #edf0f1;
+  margin-left:10px;
+  padding-left: 10px;
+}
+
+button{
+  background-color:#24252A;
+}
+
+.nav_links{
+  list-style: none;
+  margin: auto;
+  margin-left:50px;
+}
+
+.nav_links li{
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.nav_links li a{
+  padding: 0px 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color:red;
+}
+
+button{
+  border-radius: 50px;
+  height: 40px;
+  width: 100px;
+  transition: all 0.3s ease 0s;
+  margin-right: 10px;
+}
+
+button:hover{
+  background-color: red;
+}
+
+
+.about{
+  margin-left: 48%;
+  margin-bottom: -10px;
+  margin-top: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+  font-family:"Anaheim", sans-serif;
+}
+
+.self p{
+  margin-right: 300px;
+  margin-left: 250px;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 2;
+  font-size: 20px; 
+  font-family:"Anaheim", sans-serif;
+  color: white;
+}
+
+
+.self img{
+  display: inline-block;
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+
+.icon{
+  font-size: 30px;
+}
+
+
+#down{
+  font-size: 20px;
+}
+
+.container{
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45%;
+  border-radius: 50px;
+}
+
+#insta{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#link{
+  position: absolute;
+  bottom: 0;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+
+#github{
+  position: absolute;
+  bottom: 0;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+#twitter{
+  position: absolute;
+  bottom: 0;
+  left: 54%;
+  transform: translate(-50%, -50%);
+}
+
+#discord{
+  position: absolute;
+  bottom: 0;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
